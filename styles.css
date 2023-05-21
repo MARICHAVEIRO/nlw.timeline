@@ -145,6 +145,10 @@ aside span {
 }
 
 @media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+
   body {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 0.8fr;
